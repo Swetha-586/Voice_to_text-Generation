@@ -4,23 +4,18 @@ A simple Python project that converts voice input from a microphone into text us
 Features
 Converts speech to text using Google API
 
-Saves recognized text to output.txt
+Shows the recognized text.
 
 Say "stop" to end the program
 
 Requirements
 Install required libraries:
 
-bash
-Copy
-Edit
 pip install SpeechRecognition pyttsx3 pyaudio
-If pyaudio fails, download the .whl from here and install with pip install filename.whl
+If pyaudio fails, download the .whl  and install with pip install filename.whl
 
-Run
-bash
-Copy
-Edit
+
+how to run the program:
 python voice_to_text.py
 Output
 Text is printed 
